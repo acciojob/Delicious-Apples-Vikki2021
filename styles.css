@@ -1,1 +1,68 @@
-/* your code here */
+* {
+	/* background-color: #1cf76f; */
+}
+
+.product {
+	background-color: #1cf76f;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.product__photo {
+	display: flex;
+	background-color: white;
+}
+
+.product-container {
+	display: flex;
+	background-color: green;
+	justify-content: center;
+}
+
+.photo-main {
+	background-color: #68f71c;
+	color: white;
+}
+
+.photo-album ul{
+	display: flex;
+	justify-content: right;
+}
+
+ul {
+	list-style: none;
+}
+
+
+.controls {
+	display:flex;
+	justify-content: space-between;
+	text-color: white;
+}
+
+.product__info {
+	background-color: white;
+}
+
+.variant ul {
+	display: flex;
+	justify-content: center;
+}
+.title {
+}
+
+.title span {
+	color: silver;
+	font-size:10px;
+}
+
+.price {
+	color: red;
+	font-size: 32px;
+}
+
+button {
+	background-color: red;
+	color: white;
+}
